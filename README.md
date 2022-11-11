@@ -228,8 +228,6 @@ def gini(list_of_values):
         area += height - value / 2.
     fair_area = height * len(list_of_values) / 2.
     return (fair_area - area) / fair_area
-
-# function via: https://planspace.org/2013/06/21/how-to-calculate-gini-coefficient-from-raw-data-in-python/
 ```
 #### Finding the Gini Coefficient for Each Gene
 ```python
